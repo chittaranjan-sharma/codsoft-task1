@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chittaranjan Sharma Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #f5f0e1, #f3e7dc);
+      color: #333;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 10%;
+    }
+
+    nav .logo {
+      font-size: 24px;
+      font-weight: 700;
+      color: #5c3900;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .contact-btn {
+      background: none;
+      border: 2px solid #d1a76f;
+      padding: 8px 16px;
+      border-radius: 20px;
+      color: #5c3900;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 10%;
+    }
+
+    .hero-img {
+      flex: 1;
+    }
+
+    .hero-img img {
+      width: 90%;
+      border-radius: 50%;
+      border: 4px solid #d1a76f;
+    }
+
+    .hero-content {
+      flex: 1;
+      padding-left: 50px;
+    }
+
+    .hero-content h1 {
+      font-size: 40px;
+      color: #5c3900;
+    }
+
+    .hero-content h2 {
+      font-size: 24px;
+      color: #c0822b;
+      margin-bottom: 20px;
+    }
+
+    .hero-content p {
+      color: #555;
+      max-width: 500px;
+    }
+
+    .socials {
+      margin: 20px 0;
+    }
+
+    .socials a {
+      margin-right: 15px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #5c3900;
+    }
+
+    .cv-button {
+      background: #5c3900;
+      color: white;
+      padding: 10px 24px;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Chittaranjan Sharma</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Presentation</a></li>
+    </ul>
+    <button class="contact-btn">Contact Us</button>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-img">
+      <img src="new pic.jpg" alt="Chittaranjan Sharma Photo" />
+    </div>
+    <div class="hero-content">
+      <h1>Hey I'm <span style="color:#c0822b;">Chittaranjan Sharma</span></h1>
+      <h2>I'm a <span style="color:#c0822b;">Student</span></h2>
+      <p>Now i am pursuing Master Of Computer Science Application(MCA) at Rourkela Institute of Management Studies(RIMS).
+        I want to master in Web Development like HTML,CSS,JavaScript etc.I'm dedicated to creating clear,effective code 
+        and providing clients with high-caliber web solution.</p>
+      <div class="socials">
+        <a href="#">&#xf09a;</a>
+        <a href="#">&#xf16d;</a>
+        <a href="#">&#xf0e1;</a>
+      </div>
+      <button class="cv-button">Download CV</button>
+    </div>
+  </section>
+</body>
+</html>
